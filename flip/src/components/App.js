@@ -34,7 +34,6 @@ const mapStateToProps = (state) => {
     console.log(state);
     return {
         isFlipped: state.isFlipped,
-        setIsFlipped: state.setIsFlipped
     };
 }
 
